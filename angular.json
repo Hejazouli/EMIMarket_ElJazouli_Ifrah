@@ -38,7 +38,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ecommerce-app",
+            "outputPath": "backend/angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -50,6 +50,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -59,13 +60,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "12mb",
+                  "maximumError": "14mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "9kb",
+                  "maximumError": "2mb"
                 }
               ],
               "outputHashing": "all"

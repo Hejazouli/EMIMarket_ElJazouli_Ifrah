@@ -1,0 +1,29 @@
+.categories-container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10px;
+  }
+  .category{
+    padding: 5px 15px;
+    border: 1px #385f96 solid;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif, Arial;
+    color: #385f96;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+  .category:hover{
+    background-color: #c4450f;
+    color: #FFFFFF;
+  }
+  .category-active{
+    background-color: #c42810;
+    color: #FFFFFF;
+  }
+  .category:not(:last-child){
+    margin-right: 8px;
+  }
+  

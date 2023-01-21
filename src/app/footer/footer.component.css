@@ -1,0 +1,18 @@
+.logo {
+  font-family: "Poppins", sans-serif, Arial;
+  letter-spacing: 2px;
+  font-size: 34px;
+  color: #c42810;
+  font-weight: 500;
+}
+.copyright {
+  color: #2a8ea0;
+  font-family: "Poppins", sans-serif, Arial;
+  font-size: 15px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
